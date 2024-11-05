@@ -1,0 +1,410 @@
+.ng-nhp {
+    position: relative;
+    width: 1440px;
+    max-height: 100%;
+    background-color: #ffffff;
+  }
+  
+  .ng-nhp .overlap {
+    position: absolute;
+    width: 601px;
+    height: 690px;
+    top: 0;
+    left: 0;
+  }
+  
+  .ng-nhp .decor {
+    position: absolute;
+    width: 412px;
+    height: 305px;
+    top: 0;
+    left: 0;
+  }
+  
+  .ng-nhp .content {
+    display: flex;
+    flex-direction: column;
+    width: 481px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 222px;
+    left: 120px;
+  }
+  
+  .ng-nhp .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .ng-nhp .title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .ng-nhp .logo {
+    position: relative;
+    width: 138px;
+    height: 32px;
+  }
+  
+  .ng-nhp .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .ng-nhp .text-wrapper {
+    color: var(--black);
+    font-size: var(--display-sm-bold-font-size);
+    text-align: center;
+    line-height: var(--display-sm-bold-line-height);
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--display-sm-bold-font-family);
+    font-weight: var(--display-sm-bold-font-weight);
+    letter-spacing: var(--display-sm-bold-letter-spacing);
+    white-space: nowrap;
+    font-style: var(--display-sm-bold-font-style);
+  }
+  
+  .ng-nhp .div {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--text-md-regular-font-family);
+    font-weight: var(--text-md-regular-font-weight);
+    color: var(--gray-800);
+    font-size: var(--text-md-regular-font-size);
+    letter-spacing: var(--text-md-regular-letter-spacing);
+    line-height: var(--text-md-regular-line-height);
+    font-style: var(--text-md-regular-font-style);
+  }
+  
+  .ng-nhp .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .ng-nhp .input-field {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .ng-nhp .div-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .ng-nhp .label {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--text-sm-medium-font-family);
+    font-weight: var(--text-sm-medium-font-weight);
+    color: var(--gray-900);
+    font-size: var(--text-sm-medium-font-size);
+    letter-spacing: var(--text-sm-medium-letter-spacing);
+    line-height: var(--text-sm-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--text-sm-medium-font-style);
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .ng-nhp .input {
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background-color: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #b5b5b5;
+    box-shadow: var(--shadow-xs);
+    display: flex;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .ng-nhp .content-2 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .ng-nhp .img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .ng-nhp .text {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--text-md-regular-font-family);
+    font-weight: var(--text-md-regular-font-weight);
+    color: var(--gray-500);
+    font-size: var(--text-md-regular-font-size);
+    letter-spacing: var(--text-md-regular-letter-spacing);
+    line-height: var(--text-md-regular-line-height);
+    font-style: var(--text-md-regular-font-style);
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  .ng-nhp .label-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--text-sm-medium-font-family);
+    font-weight: var(--text-sm-medium-font-weight);
+    color: var(--gray-900);
+    font-size: var(--text-sm-medium-font-size);
+    letter-spacing: var(--text-sm-medium-letter-spacing);
+    line-height: var(--text-sm-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--text-sm-medium-font-style);
+  }
+  
+  .ng-nhp .text-2 {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--text-md-regular-font-family);
+    font-weight: var(--text-md-regular-font-weight);
+    color: var(--gray-500);
+    font-size: var(--text-md-regular-font-size);
+    letter-spacing: var(--text-md-regular-letter-spacing);
+    line-height: var(--text-md-regular-line-height);
+    font-style: var(--text-md-regular-font-style);
+  }
+  
+  .ng-nhp .eye-slash {
+    position: relative;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .ng-nhp .remember {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .ng-nhp .checkbox {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .ng-nhp .checkbox-base-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .ng-nhp .checkbox-base {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: var(--white);
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: #b5b5b5;
+  }
+  
+  .ng-nhp .text-3 {
+    font-family: var(--text-md-regular-font-family);
+    font-weight: var(--text-md-regular-font-weight);
+    color: var(--gray-600);
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-size: var(--text-md-regular-font-size);
+    letter-spacing: var(--text-md-regular-letter-spacing);
+    line-height: var(--text-md-regular-line-height);
+    white-space: nowrap;
+    font-style: var(--text-md-regular-font-style);
+  }
+  
+  .ng-nhp .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--text-md-semibold-font-family);
+    font-weight: var(--text-md-semibold-font-weight);
+    color: var(--brand-500);
+    font-size: var(--text-md-semibold-font-size);
+    letter-spacing: var(--text-md-semibold-letter-spacing);
+    line-height: var(--text-md-semibold-line-height);
+    white-space: nowrap;
+    font-style: var(--text-md-semibold-font-style);
+  }
+  
+  .ng-nhp .button-group {
+    flex-direction: column;
+    gap: 16px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .ng-nhp .button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 4px;
+    box-shadow: var(--shadow-xs-focused-4px-gray-100);
+  }
+  
+  .ng-nhp .button-base {
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 20px;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--brand-500);
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #bc2228;
+    box-shadow: var(--shadow-xs);
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .ng-nhp .text-4 {
+    font-family: var(--text-md-bold-font-family);
+    font-weight: var(--text-md-bold-font-weight);
+    color: var(--white);
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-size: var(--text-md-bold-font-size);
+    letter-spacing: var(--text-md-bold-letter-spacing);
+    line-height: var(--text-md-bold-line-height);
+    white-space: nowrap;
+    font-style: var(--text-md-bold-font-style);
+  }
+  
+  .ng-nhp .IMG {
+    position: absolute;
+    width: 704px;
+    height: 960px;
+    top: 0;
+    left: 736px;
+    background-color: var(--brand-500);
+  }
+  
+  .ng-nhp .overlap-group {
+    height: 960px;
+    background-image: url(./img/dta05536-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .ng-nhp .rectangle {
+    width: 704px;
+    height: 960px;
+    background: linear-gradient(
+      180deg,
+      rgba(25, 16, 58, 0.24) 0%,
+      rgba(25, 16, 58, 0.2) 100%
+    );
+  }
+  
+  .ng-nhp .sign-up {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    top: 714px;
+    left: 249px;
+  }
+  
+  .ng-nhp .p {
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--gray-700);
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .ng-nhp .text-wrapper-3 {
+    color: var(--brand-600);
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "SF Pro Display-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
